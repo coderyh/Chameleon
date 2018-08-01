@@ -28,6 +28,7 @@
  */
 
 #import "ChameleonAppDelegate.h"
+#import "TestViewController.h"
 
 @implementation ChameleonAppDelegate
 
@@ -49,6 +50,9 @@
     sillyButton.frame = CGRectMake(22,300,200,50);
     [window addSubview:sillyButton];
     
+    // test
+    TestViewController *vc = [[TestViewController alloc] init];
+    window.rootViewController = vc;
     
     [window makeKeyAndVisible];
 }

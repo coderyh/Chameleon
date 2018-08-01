@@ -130,7 +130,7 @@ typedef NS_OPTIONS(NSUInteger, UIViewAnimationOptions) {
 
 - (void)addGestureRecognizer:(UIGestureRecognizer *)gestureRecognizer;		// not implemented
 - (void)removeGestureRecognizer:(UIGestureRecognizer *)gestureRecognizer;	// not implemented
-
+- (void)displayLayer:(CALayer *)theLayer;
 - (void)didAddSubview:(UIView *)subview;
 - (void)didMoveToSuperview;
 - (void)didMoveToWindow;

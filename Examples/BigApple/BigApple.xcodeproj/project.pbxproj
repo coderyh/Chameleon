@@ -18,6 +18,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F8178CF421119403005177CC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8178CF321119403005177CC /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		78CBF0E3133ADA0E00E75130 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* BigApple-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BigApple-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* BigApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8178CF221119403005177CC /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		F8178CF321119403005177CC /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 			children = (
 				14EEFB1412DFB54100EB7D95 /* ChameleonAppDelegate.h */,
 				14EEFB1512DFB54100EB7D95 /* ChameleonAppDelegate.m */,
+				F8178CF221119403005177CC /* TestViewController.h */,
+				F8178CF321119403005177CC /* TestViewController.m */,
 			);
 			path = "Chameleon Classes";
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				14EEFA8812DFB42A00EB7D95 /* BigAppleAppDelegate.m in Sources */,
+				F8178CF421119403005177CC /* TestViewController.m in Sources */,
 				14EEFB1612DFB54100EB7D95 /* ChameleonAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

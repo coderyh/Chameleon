@@ -134,7 +134,7 @@ static NSArray *CGImagesWithUIImages(NSArray *images)
 
 - (void)displayLayer:(CALayer *)theLayer
 {
-//    [super displayLayer:theLayer];
+    [super displayLayer:theLayer];
     
     UIImage *displayImage = (_highlighted && _highlightedImage)? _highlightedImage : _image;
     const CGFloat scale = self.window.screen.scale;
